@@ -60,7 +60,7 @@ func (self *room) AddClient(client io.ReadWriteCloser) {
  	// remove client when client is done - setting a trigger for the client kill
  	go func() {
  		<-done
- 		self.RemoveClient()
+ 		self.RemoveClient(clientChan)
  	}()
 }
 
@@ -68,4 +68,19 @@ func (self *room) ClCount() int {
 	return len(self.clients)
 }
 
-// UPTO HERE - Section 5 Lecture 26 - 15:19
+func (self *room) RemoveClient(clientChan chan<- string)  {
+	logger.Println("Reomving client")
+	self.Lock()
+	close(clientChan)
+	delete(self.clients, clientChan)
+	self.Unlock()
+	select {
+	case <-self.Quit:
+		if len(self.clients) == 0 {
+			close(self.Msgch)
+		}
+	default:
+		// NoOp
+	}
+}
+
