@@ -1,0 +1,9 @@
+Hydra rooms.go:30: Starting chat room  HydraChat
+Hydra hydrachat.go:55: Client connection request received
+Hydra hydrachat.go:55: Client connection request received
+Hydra clients.go:25: jail: hello morb
+Hydra clients.go:25: morb: hello jail
+Hydra rooms.go:68: Reomving client
+Hydra rooms.go:68: Reomving client
+Hydra hydrachat.go:46: Chat client accept error accept tcp [::]:2300: use of closed network connection
+Hydra hydrachat.go:34: Closing tcp stream: interrupt

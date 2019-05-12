@@ -3,12 +3,8 @@ package chat
 import (
 	"fmt"
 	"io"
-	"net"
 	"sync"
-	"../../singleton/hlogger"
 )
-
-var logger = hlogger.GetInstance()
 
 type room struct {
 	name string
@@ -22,7 +18,7 @@ func CreateRoom(name string) *room  {
 	var room *room = &room{
 		name: name,
 		Msgch: make(chan string),
-		RWMutex: sync.RWMutex{},
+		RWMutex: &sync.RWMutex{},
 		clients: make(map[chan<-string]struct{}),
 		Quit: make(chan struct{}),
 	}
@@ -69,7 +65,7 @@ func (self *room) ClCount() int {
 }
 
 func (self *room) RemoveClient(clientChan chan<- string)  {
-	logger.Println("Reomving client")
+	logger.Println("Removing client")
 	self.Lock()
 	close(clientChan)
 	delete(self.clients, clientChan)
