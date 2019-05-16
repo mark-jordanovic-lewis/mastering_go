@@ -1,5 +1,9 @@
 package main
-
+// Instances of interfaces store two pieces of information:
+// - pointer to the concrete type
+// - descriptor of the interface methods available
+// Only methods in the descriptor can be called on an instance of the interface
+// regardless of the concrete type.
 import (
   "fmt"
   "math/rand"
