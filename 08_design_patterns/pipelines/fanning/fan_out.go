@@ -1,6 +1,6 @@
 package fanning
 
-func fan_out(in <-chan int, outs ...chan<- int)  {
+func FanOut(in <-chan int, outs ...chan<- int)  {
 	for input := range in {
 		go func() {
 			broadcast(input, outs)

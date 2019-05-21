@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/11_reflection/struct_reflection/reflection.go" line="45" />
+    <bookmark url="file://$PROJECT_DIR$/11_reflection/struct_reflection/reflection.go" line="82" />
+    <bookmark url="file://$PROJECT_DIR$/11_reflection/struct_reflection/reflection.go" line="37" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ba113627-f57a-454a-b78b-fbe82e31597e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/08_design_patterns/pipelines/chat/clients.go" beforeDir="false" afterPath="$PROJECT_DIR$/08_design_patterns/pipelines/chat/clients.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_design_patterns/pipelines/chat/rooms.go" beforeDir="false" afterPath="$PROJECT_DIR$/08_design_patterns/pipelines/chat/rooms.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_reflection/basic_reflection/reflection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_reflection/struct_reflection/reflection.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tool-versions" beforeDir="false" afterPath="$PROJECT_DIR$/.tool-versions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_design_patterns/pipelines/fanning/fan_out.go" beforeDir="false" afterPath="$PROJECT_DIR$/08_design_patterns/pipelines/fanning/fan_out.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_reflection/reflection.go" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,35 +21,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.32589838">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/chat/clients.go">
+            <entry file="file://$PROJECT_DIR$/11_reflection/basic_reflection/reflection.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="39">
-                  <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/chat/rooms.go">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
-                  <folding>
-                    <element signature="e#14#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/chat/hydrachat.go">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="12" selection-start-column="12" selection-end-column="12" />
+                <state relative-caret-position="403">
+                  <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
                 </state>
               </provider>
             </entry>
@@ -50,10 +38,13 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/pipeline.go">
+            <entry file="file://$PROJECT_DIR$/11_reflection/struct_reflection/reflection.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="65">
-                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="287">
+                  <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+                  <folding>
+                    <element signature="e#14#63#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -75,6 +66,8 @@
       <find>create</find>
       <find>switch</find>
       <find>printT</find>
+      <find>Can</find>
+      <find>regexp</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -117,20 +110,25 @@
         <option value="$PROJECT_DIR$/08_design_patterns/pipelines/pipeline.go" />
         <option value="$PROJECT_DIR$/08_design_patterns/pipelines/chat/rooms.go" />
         <option value="$PROJECT_DIR$/08_design_patterns/pipelines/chat/clients.go" />
+        <option value="$PROJECT_DIR$/08_design_patterns/pipelines/fanning/fan_out.go" />
+        <option value="$PROJECT_DIR$/11_reflection/reflection.go" />
+        <option value="$PROJECT_DIR$/.tool-versions" />
+        <option value="$PROJECT_DIR$/11_reflection/basic_reflection/reflection.go" />
+        <option value="$PROJECT_DIR$/11_reflection/struct_reflection/reflection.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="960" />
-    <option name="y" value="25" />
-    <option name="width" value="950" />
-    <option name="height" value="1051" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="y" value="545" />
+    <option name="width" value="1920" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,21 +144,40 @@
             <path>
               <item name="mastering_go" type="b2602c69:ProjectViewProjectNode" />
               <item name="mastering_go" type="462c0819:PsiDirectoryNode" />
-              <item name="08_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="pipelines" type="462c0819:PsiDirectoryNode" />
+              <item name="11_reflection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mastering_go" type="b2602c69:ProjectViewProjectNode" />
               <item name="mastering_go" type="462c0819:PsiDirectoryNode" />
-              <item name="08_design_patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="pipelines" type="462c0819:PsiDirectoryNode" />
-              <item name="chat" type="462c0819:PsiDirectoryNode" />
+              <item name="11_reflection" type="462c0819:PsiDirectoryNode" />
+              <item name="struct_reflection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering_go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="mastering_go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.12.3" type="20ee2d1f:SyntheticLibraryElementNode" />
+            </path>
+            <path>
+              <item name="mastering_go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.12.3" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mastering_go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.12.3" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="regexp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,7 +192,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/11_reflection/basic_reflection" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -190,14 +212,15 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="25" width="950" height="1051" extended-state="1" />
+    <frame x="0" y="545" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24889868" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14057508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32978722" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -206,8 +229,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.070512824" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29787233" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" x="0" y="0" width="430" height="855" id="Documentation" side_tool="true" weight="0.32960597" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -287,13 +311,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09_sync_package/lock_mutex.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/09_sync_package/lock_mutex.go" />
     <entry file="file://$PROJECT_DIR$/08_design_patterns/builder/builder_pattern.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -422,6 +440,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/chat/rooms.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1027">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/pipeline.go" />
     <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/chat/hydrachat.go">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -429,27 +455,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/pipeline.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/chat/rooms.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="e#14#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/chat_client/chat_client.go">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/chat/clients.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="442">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/fanning/fan_out.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/fanning/fan_in.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_reflection/.tool-versions" />
+    <entry file="file://$PROJECT_DIR$/.tool-versions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_reflection/basic_reflection/reflection.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_reflection/struct_reflection/reflection.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+          <folding>
+            <element signature="e#14#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
