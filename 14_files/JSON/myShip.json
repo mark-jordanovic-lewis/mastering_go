@@ -1,0 +1,1 @@
+{"crew":[{"id":"2","Name":"Bob","SecurityClearance":3,"Access":["none"]},{"id":"3","Name":"Alice","SecurityClearance":6,"Access":["eighteen"]},{"id":"5","Name":"Billy","SecurityClearance":2,"Access":["mops"]}],"ship":{"ident":"1","class":"Actuiser","Captain":{"id":"1","Name":"Jarvis","SecurityClearance":10,"Access":["beep","boop"]}}}
