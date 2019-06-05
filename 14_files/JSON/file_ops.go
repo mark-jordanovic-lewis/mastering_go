@@ -23,39 +23,38 @@ type ShipInfo struct {
 }
 
 func main()  {
-	// Marshalling structs to JSON strings
+	// Marshal and Unmarshal structs to/from JSON strings
 	var captain = CrewMember{1,"Jarvis", 10, []string{"beep", "boop"}, "R0b0Dude", "not exported"}
-	var marshallable = map[string]interface{}{}
+	var marshallable = map[string]interface{}{} // doesn't have to be a string key but this makes nice JSONs
 	// don't have to do this step, just showing how powerful the marshaller is. These are different types being encoded to a json string held in a map
 	marshallable["ship"] = ShipInfo{ShipID:1, ShipClass:"Actuiser", Captain: captain}
 	marshallable["crew"] = []CrewMember{
-		{2,"Bob", 3, []string{"none"},"derrik", "dd"},
+		{2, "Bob", 3, []string{"none"}, "derrik", "dd"},
 		{3, "Alice", 6, []string{"eighteen"}, "AlBoy", "aliz"},
 		{5, "Billy", 2, []string{"mops"}, "stan", "soney"},
 	}
-	// write to Writable implementing type while encoding!
-	jsonFile, err := os.Create("myShip.json")
-	defer closeFile(jsonFile)
-	handleError(json.NewEncoder(jsonFile).Encode(&marshallable))
 
 
 	// Reading and decoding JSON from a map[string]interface{}{} - you have to know the types you are getting to begin with!
+	// decoding and encodign only works if you have ExportedFields (starting with a capital letter!)
 	type incomingStruct struct {
-		crew []CrewMember
-		ship ShipInfo
+		Crew []CrewMember
+		Ship ShipInfo
 	}
-
 	byteJson, err := json.Marshal(&marshallable) // can use both ref and value. Ref is cheaper tho.
 	if err != nil {
 		fmt.Println("error: ", err)
 	}
 	fmt.Println(string(byteJson))
+	var unmarshallable = incomingStruct{}
+	handleError(json.Unmarshal(byteJson, &unmarshallable))
+	fmt.Printf("got unmarshallable:  %+v\n", unmarshallable)
 
-	var unmarshallable = new(incomingStruct)
-	handleError(json.Unmarshal(byteJson, unmarshallable))
-	fmt.Println("beep")
-	fmt.Println("got unmarshallable:  ", unmarshallable)
-
+	// write to Writable implementing type while encoding!
+	jsonFile, err := os.Create("myShip.json")
+	defer closeFile(jsonFile)
+	handleError(json.NewEncoder(jsonFile).Encode(&marshallable))
+	// read from Readable implementing type while Decoding
 }
 
 func handleError(err error)  {
