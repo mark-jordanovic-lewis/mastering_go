@@ -41,7 +41,7 @@ func main()  {
 		Crew []CrewMember
 		Ship ShipInfo
 	}
-	byteJson, err := json.Marshal(&marshallable) // can use both ref and value. Ref is cheaper tho.
+	byteJson, err := json.MarshalIndent(&marshallable, " ", "	") // can use both ref and value. Ref is cheaper tho.
 	if err != nil {
 		fmt.Println("error: ", err)
 	}
@@ -50,11 +50,17 @@ func main()  {
 	handleError(json.Unmarshal(byteJson, &unmarshallable))
 	fmt.Printf("got unmarshallable:  %+v\n", unmarshallable)
 
+	// This can be performed to any Reader/Writer implementing type
 	// write to Writable implementing type while encoding!
-	jsonFile, err := os.Create("myShip.json")
-	defer closeFile(jsonFile)
+	jsonFile, _ := os.Create("myShip.json")
 	handleError(json.NewEncoder(jsonFile).Encode(&marshallable))
+	closeFile(jsonFile)
 	// read from Readable implementing type while Decoding
+	var decodedFile = incomingStruct{}
+	jsonFile, _ = os.Open("myShip.json")
+	handleError(json.NewDecoder(jsonFile).Decode(&decodedFile))
+	closeFile(jsonFile)
+	fmt.Printf("got decodedFile:  %+v\n", decodedFile)
 }
 
 func handleError(err error)  {

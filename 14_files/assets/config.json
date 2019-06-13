@@ -1,0 +1,6 @@
+{
+  "testString": "hello",
+  "testBool": true,
+  "testFloat": 3.14,
+  "testInt": 4
+}

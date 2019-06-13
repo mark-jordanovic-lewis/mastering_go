@@ -4,15 +4,379 @@
     <bookmark url="file://$PROJECT_DIR$/11_reflection/struct_reflection/reflection.go" line="45" />
     <bookmark url="file://$PROJECT_DIR$/11_reflection/struct_reflection/reflection.go" line="82" />
     <bookmark url="file://$PROJECT_DIR$/11_reflection/struct_reflection/reflection.go" line="37" />
+    <bookmark url="file://$PROJECT_DIR$/13_testing/testing_guidelines.md" line="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba113627-f57a-454a-b78b-fbe82e31597e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11_reflection/basic_reflection/reflection.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_reflection/struct_reflection/reflection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/fc0bbde6-1f78-45ba-b908-03a17f702e95.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_design_patterns/pipelines/chat/.tool-versions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_design_patterns/pipelines/chat/hydralogger.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_parsing_text/.tool-versions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_files/assets/config.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_files/assets/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_files/assets/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_files/assets/configTest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_files/assets/crew.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_files/csv/CrewMembers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_files/csv/file_ops.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_files/hydra_configurator/hydra_configurator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_files/hydra_configurator/json_configurator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_files/hydra_configurator/xml_configurator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_files/xml/file_ops.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_files/xml/ship.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/Gopkg.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/Gopkg.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/_mysql/database.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/mongo/database.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/go-stack/stack/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/go-stack/stack/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/go-stack/stack/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/go-stack/stack/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/go-stack/stack/stack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/golang/snappy/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/golang/snappy/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/golang/snappy/CONTRIBUTORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/golang/snappy/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/golang/snappy/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/golang/snappy/decode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/golang/snappy/decode_amd64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/golang/snappy/decode_amd64.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/golang/snappy/decode_other.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/golang/snappy/encode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/golang/snappy/encode_amd64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/golang/snappy/encode_amd64.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/golang/snappy/encode_other.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/golang/snappy/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/golang/snappy/snappy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/scram/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/scram/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/scram/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/scram/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/scram/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/scram/client_conv.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/scram/common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/scram/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/scram/parse.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/scram/scram.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/scram/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/scram/server_conv.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/stringprep/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/stringprep/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/stringprep/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/stringprep/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/stringprep/bidi.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/stringprep/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/stringprep/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/stringprep/map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/stringprep/profile.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/stringprep/saslprep.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/stringprep/set.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/github.com/xdg/stringprep/tables.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/THIRD-PARTY-NOTICES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bson.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bson_1_8.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsoncodec/bsoncodec.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsoncodec/default_value_decoders.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsoncodec/default_value_encoders.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsoncodec/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsoncodec/mode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsoncodec/pointer_codec.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsoncodec/proxy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsoncodec/registry.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsoncodec/struct_codec.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsoncodec/struct_tag_parser.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsoncodec/types.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsonrw/copier.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsonrw/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsonrw/extjson_parser.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsonrw/extjson_reader.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsonrw/extjson_tables.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsonrw/extjson_wrappers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsonrw/extjson_writer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsonrw/json_scanner.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsonrw/mode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsonrw/reader.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsonrw/value_reader.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsonrw/value_writer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsonrw/writer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/bsontype/bsontype.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/decoder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/encoder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/marshal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/primitive/decimal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/primitive/objectid.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/primitive/primitive.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/primitive_codecs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/raw.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/raw_element.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/raw_value.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/registry.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/types.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/bson/unmarshal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/etc/generate-notices.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/event/monitoring.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/internal/channel_connection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/internal/const.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/internal/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/internal/results.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/internal/semaphore.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/batch_cursor.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/bulk_write.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/change_stream.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/collection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/cursor.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/database.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/index_options_builder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/index_view.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/mongo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/aggregateoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/bulkwriteoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/changestreamoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/clientoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/clientoptions_1_10.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/clientoptions_1_9.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/collectionoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/countoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/dboptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/deleteoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/distinctoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/estimatedcountoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/findoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/gridfsoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/indexoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/insertoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/listcollectionsoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/listdatabasesoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/mongooptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/replaceoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/runcmdoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/sessionoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/transactionoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/options/updateoptions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/readconcern/readconcern.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/readpref/mode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/readpref/options.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/readpref/readpref.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/results.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/session.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/single_result.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/util.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/mongo/writeconcern/writeconcern.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/tag/tag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/version/version.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/bsonx/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/bsonx/bsoncore/bsoncore.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/bsonx/bsoncore/document.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/bsonx/bsoncore/document_sequence.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/bsonx/bsoncore/element.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/bsonx/bsoncore/tables.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/bsonx/bsoncore/value.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/bsonx/constructor.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/bsonx/document.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/bsonx/element.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/bsonx/mdocument.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/bsonx/primitive_codecs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/bsonx/registry.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/bsonx/value.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/abort_transaction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/aggregate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/auth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/cred.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/default.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/gssapi.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/gssapi_not_enabled.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/gssapi_not_supported.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/internal/gssapi/gss.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/internal/gssapi/gss_wrapper.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/internal/gssapi/gss_wrapper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/internal/gssapi/sspi.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/internal/gssapi/sspi_wrapper.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/internal/gssapi/sspi_wrapper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/mongodbcr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/plain.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/sasl.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/scram.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/util.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/auth/x509.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/batch_cursor.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/bulk_write.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/commit_transaction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/count.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/count_documents.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/create_indexes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/delete.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/delete_indexes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/dispatch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/distinct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/drop_collection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/drop_database.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/end_sessions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/find.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/find_one_and_delete.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/find_one_and_replace.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/find_one_and_update.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/insert.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/kill_cursors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/list_collections.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/list_collections_batch_cursor.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/list_databases.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/list_indexes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/models.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/read.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/read_cursor.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/session/client_session.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/session/cluster_clock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/session/options.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/session/server_session.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/session/session_pool.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/topology/connection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/topology/fsm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/topology/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/topology/server_options.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/topology/topology.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/topology/topology_options.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/update.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/uuid/uuid.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/mongo/driver/write.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/address/addr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/abort_transaction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/aggregate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/buildinfo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/command.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/commit_transaction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/count.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/count_documents.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/create_indexes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/delete.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/distinct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/drop_collection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/drop_database.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/drop_indexes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/end_sessions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/find.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/find_and_modify.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/find_one_delete.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/find_one_replace.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/find_one_update.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/get_more.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/getlasterror.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/handshake.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/insert.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/ismaster.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/kill_cursors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/list_collections.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/list_databases.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/list_indexes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/namespace.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/opmsg.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/opreply.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/read.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/start_session.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/update.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/command/write.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/compressor/compression.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/connection/addr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/connection/command_metadata.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/connection/connection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/connection/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/connection/keepalive_300.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/connection/keepalive_default.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/connection/listener.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/connection/options.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/connection/pool.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/connection/proxy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/connection/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/connection/tlsconfig.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/connection/tlsconfig_clone_17.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/connstring/connstring.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/description/description.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/description/feature.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/description/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/description/server_kind.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/description/server_selector.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/description/topology.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/description/topology_kind.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/description/version.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/description/version_range.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/result/result.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/wiremessage/appenders.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/wiremessage/command.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/wiremessage/command_reply.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/wiremessage/compressed.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/wiremessage/delete.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/wiremessage/get_more.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/wiremessage/header.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/wiremessage/insert.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/wiremessage/kill_cursors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/wiremessage/msg.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/wiremessage/query.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/wiremessage/readers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/wiremessage/reply.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/wiremessage/update.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/go.mongodb.org/mongo-driver/x/network/wiremessage/wiremessage.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/crypto/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/crypto/CONTRIBUTORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/crypto/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/crypto/PATENTS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/crypto/pbkdf2/pbkdf2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/sync/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/sync/CONTRIBUTORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/sync/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/sync/PATENTS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/sync/semaphore/semaphore.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/CONTRIBUTORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/PATENTS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/internal/gen/code.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/internal/gen/gen.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/internal/triegen/compact.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/internal/triegen/print.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/internal/triegen/triegen.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/internal/ucd/ucd.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/transform/transform.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/cldr/base.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/cldr/cldr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/cldr/collate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/cldr/decode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/cldr/makexml.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/cldr/resolve.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/cldr/slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/cldr/xml.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/norm/composition.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/norm/forminfo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/norm/input.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/norm/iter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/norm/maketables.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/norm/normalize.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/norm/readwriter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/norm/tables10.0.0.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/norm/tables11.0.0.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/norm/tables9.0.0.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/norm/transform.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/norm/trie.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_database/vendor/golang.org/x/text/unicode/norm/triegen.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.tool-versions" beforeDir="false" afterPath="$PROJECT_DIR$/.tool-versions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_design_patterns/pipelines/fanning/fan_out.go" beforeDir="false" afterPath="$PROJECT_DIR$/08_design_patterns/pipelines/fanning/fan_out.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_reflection/reflection.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_design_patterns/pipelines/chat/chat_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/08_design_patterns/pipelines/chat/chat_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_parsing_text/config/config.conf" beforeDir="false" afterPath="$PROJECT_DIR$/12_parsing_text/config/config.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_parsing_text/config_parser.go" beforeDir="false" afterPath="$PROJECT_DIR$/12_parsing_text/config_parser.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_parsing_text/hydra_configurator/custom_configurator.go" beforeDir="false" afterPath="$PROJECT_DIR$/12_parsing_text/hydra_configurator/custom_configurator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_parsing_text/hydra_configurator/hydra_configurator.go" beforeDir="false" afterPath="$PROJECT_DIR$/12_parsing_text/hydra_configurator/hydra_configurator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_files/JSON/file_ops.go" beforeDir="false" afterPath="$PROJECT_DIR$/14_files/JSON/file_ops.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,15 +384,74 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.32589838">
+    <splitter split-orientation="horizontal" split-proportion="0.8039816">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/11_reflection/basic_reflection/reflection.go">
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/14_files/csv/file_ops.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="403">
-                  <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+                <state relative-caret-position="-6">
+                  <caret line="18" column="29" selection-start-line="12" selection-end-line="18" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#14#37#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/15_database/_mysql/database.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="197">
+                  <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#16#28#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/15_database/mongo/database.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="702">
+                  <caret line="81" selection-start-line="81" selection-end-line="81" />
+                  <folding>
+                    <element signature="e#14#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="8" selection-start-column="8" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/14_files/assets/crew.csv">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -37,11 +460,20 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/11_reflection/struct_reflection/reflection.go">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/14_files/hydra_configurator/hydra_configurator.go">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="287">
-                  <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+                <state relative-caret-position="-6">
+                  <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/14_files/assets/configTest.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="377">
+                  <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
                   <folding>
                     <element signature="e#14#63#0" expanded="true" />
                   </folding>
@@ -68,6 +500,7 @@
       <find>printT</find>
       <find>Can</find>
       <find>regexp</find>
+      <find>configur</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -80,21 +513,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/04_set/sets.go" />
-        <option value="$PROJECT_DIR$/05_singly_linked_list/sll.go" />
-        <option value="$PROJECT_DIR$/07_interfaces/A_empty_interface/empty_interface.go" />
-        <option value="$PROJECT_DIR$/07_interfaces/B_interface_and_method/interface.go" />
-        <option value="$PROJECT_DIR$/08_design_patterns/factory/appliancaes/appliance_factory.go" />
-        <option value="$PROJECT_DIR$/08_design_patterns/factory/appliances/stove.go" />
-        <option value="$PROJECT_DIR$/08_design_patterns/factory/appliances/fridge.go" />
-        <option value="$PROJECT_DIR$/08_design_patterns/factory/appliances/microwave.go" />
-        <option value="$PROJECT_DIR$/08_design_patterns/factory/appliances/appliance_factory.go" />
-        <option value="$PROJECT_DIR$/08_design_patterns/factory/factory_pattern.go" />
-        <option value="$PROJECT_DIR$/08_design_patterns/singleton/hlogger/hlogger.go" />
-        <option value="$PROJECT_DIR$/08_design_patterns/singleton/singleton_pattern.go" />
-        <option value="$PROJECT_DIR$/hydra_project/webserver.go" />
-        <option value="$PROJECT_DIR$/08_design_patterns/builder/sheild_builder/sheild_builder.go" />
-        <option value="$PROJECT_DIR$/08_design_patterns/builder/builder_pattern.go" />
         <option value="$PROJECT_DIR$/09_sync_package/lock_mutex.go" />
         <option value="$PROJECT_DIR$/09_sync_package/mutex_and_lock/lock.go" />
         <option value="$PROJECT_DIR$/09_sync_package/mutex_and_lock/mutex.go" />
@@ -112,15 +530,51 @@
         <option value="$PROJECT_DIR$/08_design_patterns/pipelines/chat/clients.go" />
         <option value="$PROJECT_DIR$/08_design_patterns/pipelines/fanning/fan_out.go" />
         <option value="$PROJECT_DIR$/11_reflection/reflection.go" />
-        <option value="$PROJECT_DIR$/.tool-versions" />
         <option value="$PROJECT_DIR$/11_reflection/basic_reflection/reflection.go" />
         <option value="$PROJECT_DIR$/11_reflection/struct_reflection/reflection.go" />
+        <option value="$PROJECT_DIR$/12_parsing_text.go" />
+        <option value="$PROJECT_DIR$/12_parsing_text/HydraCOnfigurator.go" />
+        <option value="$PROJECT_DIR$/12_parsing_text/hydra_configurator.go" />
+        <option value="$PROJECT_DIR$/12_parsing_text/custom_configurator.go" />
+        <option value="$PROJECT_DIR$/12_parsing_text/hydra_configurator/config/config_parser.go" />
+        <option value="$PROJECT_DIR$/12_parsing_text/config/config_parser.go" />
+        <option value="$PROJECT_DIR$/12_parsing_text/config/config.conf" />
+        <option value="$PROJECT_DIR$/12_parsing_text/hydra_configurator/custom_configurator.go" />
+        <option value="$PROJECT_DIR$/13_testing/unit_test.go" />
+        <option value="$PROJECT_DIR$/13_testing/unit.go" />
+        <option value="$PROJECT_DIR$/08_design_patterns/pipelines/chat/chat_test.go" />
+        <option value="$PROJECT_DIR$/13_testing/unit_tests.md" />
+        <option value="$PROJECT_DIR$/.tool-versions" />
+        <option value="$PROJECT_DIR$/14_files/basics/file_ops.go" />
+        <option value="$PROJECT_DIR$/14_files/helpful/file_ops.go" />
+        <option value="$PROJECT_DIR$/12_parsing_text/hydra_configurator/hydra_configurator.go" />
+        <option value="$PROJECT_DIR$/12_parsing_text/config_parser.go" />
+        <option value="$PROJECT_DIR$/14_files/assets/config.json" />
+        <option value="$PROJECT_DIR$/14_files/hydra_configurator/configTest.go" />
+        <option value="$PROJECT_DIR$/14_files/hydra_configurator/json_configurator.go" />
+        <option value="$PROJECT_DIR$/14_files/JSON/file_ops.go" />
+        <option value="$PROJECT_DIR$/14_files/xml/file_ops.go" />
+        <option value="$PROJECT_DIR$/14_files/assets/config.xml" />
+        <option value="$PROJECT_DIR$/14_files/hydra_configurator/hydra_configurator.go" />
+        <option value="$PROJECT_DIR$/14_files/assets/configTest.go" />
+        <option value="$PROJECT_DIR$/14_files/hydra_configurator/xml_configurator.go" />
+        <option value="$PROJECT_DIR$/14_files/assets/crew.csv" />
+        <option value="$PROJECT_DIR$/15_database/mysql/database.go" />
+        <option value="$PROJECT_DIR$/14_files/csv/file_ops.go" />
+        <option value="$PROJECT_DIR$/15_database/_mysql/database.go" />
+        <option value="$PROJECT_DIR$/15_database/mongo/database.go" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="y" value="545" />
-    <option name="width" value="1920" />
+    <option name="width" value="960" />
     <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
@@ -128,7 +582,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,66 +589,38 @@
               <item name="mastering_go" type="b2602c69:ProjectViewProjectNode" />
               <item name="mastering_go" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mastering_go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mastering_go" type="462c0819:PsiDirectoryNode" />
-              <item name="08_design_patterns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering_go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mastering_go" type="462c0819:PsiDirectoryNode" />
-              <item name="11_reflection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering_go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mastering_go" type="462c0819:PsiDirectoryNode" />
-              <item name="11_reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="struct_reflection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering_go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="mastering_go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.12.3" type="20ee2d1f:SyntheticLibraryElementNode" />
-            </path>
-            <path>
-              <item name="mastering_go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.12.3" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mastering_go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.12.3" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="regexp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/14_files/assets" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/14_files/assets" />
+      <recent name="$PROJECT_DIR$/14_files/hydra_configurator" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/14_files/assets" />
+      <recent name="$PROJECT_DIR$/12_parsing_text" />
+      <recent name="$PROJECT_DIR$/12_parsing_text/hydra_configurator" />
       <recent name="$PROJECT_DIR$/11_reflection/basic_reflection" />
     </key>
   </component>
@@ -212,167 +637,36 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="545" width="1920" height="1055" extended-state="6" />
+    <frame x="0" y="545" width="960" height="1055" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14057508" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32978722" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.38017428" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29787233" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" x="0" y="0" width="430" height="855" id="Documentation" side_tool="true" weight="0.32960597" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50108933" side_tool="true" weight="0.31914893" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32978722" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49891067" visible="true" weight="0.31914893" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" x="0" y="0" width="430" height="855" id="Documentation" order="4" side_tool="true" weight="0.32960597" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/04_set/sets.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05_singly_linked_list/sll.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="100" column="31" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07_interfaces/A_empty_interface/empty_interface.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_design_patterns/factory/appliances/stove.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_design_patterns/factory/appliances/fridge.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="13" column="1" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_design_patterns/factory/appliances/appliance_factory.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_design_patterns/factory/appliances/microwave.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_design_patterns/singleton/hydralogger.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_design_patterns/singleton/hlogger/hlogger.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hydra_project/hydralogger.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_design_patterns/builder/sheild_builder/sheild_builder.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09_sync_package/lock_mutex.go" />
-    <entry file="file://$PROJECT_DIR$/08_design_patterns/builder/builder_pattern.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="e#14#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hydra_project/webserver.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="e#14#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_design_patterns/singleton/singleton_pattern.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="61" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="61" />
-          <folding>
-            <element signature="e#19#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_design_patterns/factory/factory_pattern.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07_interfaces/B_interface_and_method/interface.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09_sync_package/mutex_and_lock/lock.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09_sync_package/mutex_and_lock/mutex.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-          <folding>
-            <element signature="e#24#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/09_sync_package/once/once.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -448,16 +742,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/pipeline.go" />
-    <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/chat/hydrachat.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/chat_client/chat_client.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/chat/clients.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -476,13 +760,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/11_reflection/.tool-versions" />
-    <entry file="file://$PROJECT_DIR$/.tool-versions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11_reflection/basic_reflection/reflection.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -497,6 +774,248 @@
           <folding>
             <element signature="e#14#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_parsing_text.go" />
+    <entry file="file://$PROJECT_DIR$/12_parsing_text/config/config.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_testing/unit.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_testing/unit_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/go/src/net/dial.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="686" column="5" selection-start-line="686" selection-start-column="5" selection-end-line="686" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/chat_server/chat_server.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/chat_client/chat_client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/chat/hydrachat.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/chat/hydralogger.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_design_patterns/pipelines/chat/chat_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.tool-versions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_files/helpful/file_ops.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+          <folding>
+            <element signature="e#17#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_files/basics/file_ops.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_parsing_text/config_parser.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_parsing_text/hydra_configurator/custom_configurator.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+          <folding>
+            <element signature="e#28#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_parsing_text/hydra_configurator/hydra_configurator.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_files/assets/config.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_testing/testing_guidelines.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="286">
+            <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_files/JSON/myShip.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_files/assets/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_files/JSON/file_ops.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="43" column="64" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_files/xml/ship.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_files/hydra_configurator/hydra_configurator.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_files/assets/configTest.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding>
+            <element signature="e#14#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_files/hydra_configurator/xml_configurator.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="e#28#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_files/assets/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_files/hydra_configurator/json_configurator.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_files/xml/file_ops.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="8" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_files/assets/crew.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_struct_slice_map/03_ssm.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_files/csv/CrewMembers.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_files/csv/file_ops.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="18" column="29" selection-start-line="12" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#14#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fc0bbde6-1f78-45ba-b908-03a17f702e95/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15_database/_mysql/database.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#16#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15_database/mongo/database.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>

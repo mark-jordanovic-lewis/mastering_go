@@ -1,0 +1,14 @@
+ <Ship ident="1">
+ 	<Details>
+ 		<class>Big</class>
+ 		<n_guns>2</n_guns>
+ 	</Details>
+ 	<Captain id="1">
+ 		<name>JJ</name>
+ 		<clearance>3</clearance>
+ 		<access>
+ 			<code>abc</code>
+ 			<code>def</code>
+ 		</access>
+ 	</Captain>
+ </Ship>

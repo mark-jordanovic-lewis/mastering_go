@@ -1,14 +1,13 @@
 package main
 
 import (
-	h_conf "../../hydra_configurator"
+	h_conf "./hydra_configurator"
 	"fmt"
-	"github.com/mark-jordanovic-lewis/mastering_go/12_parsing_text/hydra_configurator"
 )
 
 // of course, the struct format must be known at compile time to read into
 // and so must match the json contract
-type ConfStruct Struct {
+type ConfStruct struct {
 	TS 		string  `name:"testString"`
 	TB 		bool    `name:"testBool"`
 	TF 		float64 `name:"testFloat"`
@@ -17,7 +16,7 @@ type ConfStruct Struct {
 
 func main() {
   var configStruct = new(ConfStruct)
-  h_conf.GetConfiguration(h_conf.CUSTOM, configStruct, "config.conf")
+  _ = h_conf.GetCustomConfiguration(h_conf.CUSTOM, configStruct, "config/config.conf")
   fmt.Printf("initialised configStruct: %+v\n", *configStruct)
 
   fmt.Printf("%t - %v\n",configStruct.TS,configStruct.TS)

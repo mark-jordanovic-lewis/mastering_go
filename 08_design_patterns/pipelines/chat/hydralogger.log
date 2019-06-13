@@ -1,0 +1,3 @@
+Hydra rooms.go:30: Starting chat room  HydraChat
+Hydra hydrachat.go:55: Client connection request received
+Hydra rooms.go:68: Removing client
